@@ -387,7 +387,7 @@ controller:
   # 2.x = keda.sh/v1alpha1
   # 1.x = keda.k8s.io/v1alpha1
     enabled: false
-    minReplicas: 1
+    minReplicas: 2
     maxReplicas: 11
     pollingInterval: 30
     cooldownPeriod: 300
