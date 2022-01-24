@@ -351,7 +351,7 @@ controller:
   # Mutually exclusive with keda autoscaling
   autoscaling:
     enabled: false
-    minReplicas: 1
+    minReplicas: 2
     maxReplicas: 11
     targetCPUUtilizationPercentage: 50
     targetMemoryUtilizationPercentage: 50
