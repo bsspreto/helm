@@ -837,8 +837,8 @@ defaultBackend:
   autoscaling:
     annotations: {}
     enabled: false
-    minReplicas: 1
-    maxReplicas: 2
+    minReplicas: 2
+    maxReplicas: 4
     targetCPUUtilizationPercentage: 50
     targetMemoryUtilizationPercentage: 50
 
